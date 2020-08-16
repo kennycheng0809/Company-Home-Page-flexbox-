@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  a {
+    color: black;
+  }
+  
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: cetner;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+  }
+
+  .main {
+    padding-top: 35px;
+    opacity: 0.9;
+  }
+
+    .mission {
+    display: flex;
+    height: 300px;
+    background-image: url("https://ca-times.brightspotcdn.com/dims4/default/b350062/2147483647/strip/true/crop/1507x791+0+28/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd4%2F53%2Fce351c2cfe853d0f3467c4dd3520%2Flat-sp-michael-jordan-kobe-bryant-20141220");
+    padding-top: 35px;
+  }
+  
+  .mission .content {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+  }
+
+  #portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  
+  .trainings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .training {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .training img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    padding: 10px;
+    height: 200px;
+    
+  }
+  
+  .training span {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .team {
+    background-image: url("https://i.redd.it/m6up7z4yphh31.jpg");
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+  }
+  
+  .teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 150px;
+  }
+
+  .contact,
+.copyright {
+  padding-top: 20px;
+}
